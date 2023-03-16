@@ -110,7 +110,7 @@ var kakaoUi = {
         var mapContainer = document.getElementById('weddingMap'), // 지도를 표시할 div
 
         mapOption = { 
-            center: new kakao.maps.LatLng(37.52927123820142, 126.92503755059506), // 지도의 중심좌표
+            center: new kakao.maps.LatLng(523954.0, 1084098.0), // 지도의 중심좌표
             level: 5 // 지도의 확대 레벨
         };
     
@@ -122,7 +122,7 @@ var kakaoUi = {
             
         // 마커의 이미지정보를 가지고 있는 마커이미지를 생성합니다
         var markerImage = new kakao.maps.MarkerImage(imageSrc, imageSize, imageOption),
-            markerPosition = new kakao.maps.LatLng(37.52927123820142, 126.92503755059506); // 마커가 표시될 위치입니다
+            markerPosition = new kakao.maps.LatLng(523954.0, 1084098.0); // 마커가 표시될 위치입니다
     
         // 마커를 생성합니다
         var marker = new kakao.maps.Marker({
@@ -134,11 +134,11 @@ var kakaoUi = {
         marker.setMap(map); 
     },
     link : function(){
-        Kakao.init('0e98cc5dddc715cc4db771a02017b856');
+        Kakao.init('cb91ae6ea10afa1046d8eabfc07a3e00');
         Kakao.Link.createScrapButton({
             container: '#kakao-link-btn',
-            requestUrl: 'https://ggozi.github.io',
-            templateId : 85055
+            requestUrl: 'https://soomwedding.github.io',
+            templateId : 91301
         });
     }
 
