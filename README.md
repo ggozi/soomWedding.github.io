@@ -1,2 +1,2 @@
-# soomWedding.github.io
+# soomwedding.github.io
 soomin's wedding
